@@ -3,7 +3,7 @@ layout: post
 title: "Everything's a CASE statement!"
 description: "A lot of people may not realize that some of our favorite T-SQL functions are really just a little syntactic sugar underneath."
 date: 2024-07-30T11:00:00-07:00
-tags: T-SQL
+tags: Backend
 image: img/postbanners/2024-07-30-everythings-a-case-statement.png
 ---
 
