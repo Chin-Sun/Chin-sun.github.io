@@ -1,9 +1,9 @@
 theme: minima
 
-title: Chad's Blog
-author: Chad Baldwin
-email: blog@chadbaldwin.net
-url: https://chadbaldwin.net
+title: Qian's Blog
+author: Qian Sun
+email: qiannysun@gmail.com
+url: https://chin-sun.github.io/
 
 timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
 future: false # GitHub Pages will publish future posts if this isn't set to false
