@@ -12,9 +12,9 @@ description: >
   My first blog. Probably no one else will ever read it, but oh well.
 
 # Minima variables
-twitter_username:  chad_baldwin
-github_username:   chadbaldwin
-linkedin_username: chadbaldwin
+# twitter_username:  chad_baldwin
+github_username:   Chin-Sun
+linkedin_username: Qian Sun
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -29,25 +29,25 @@ show_excerpts: false
 # Used by simple links page
 social-links:
   Resume:          /resume
-  LinkedIn:        https://linkedin.com/in/chadbaldwin
-  StackOverflow:   https://stackoverflow.com/users/3474677
-  HackerRank:      https://hackerrank.com/chadwin
+  LinkedIn:        https://www.linkedin.com/in/qian-sun-033072240
+  # StackOverflow:   https://stackoverflow.com/users/3474677
+  # HackerRank:      https://hackerrank.com/Chin-Sun
   GitHub:          https://github.com/chadbaldwin
-  Microsoft Learn: https://learn.microsoft.com/en-us/users/chadbaldwin/transcript/v0ylxf6nq5l8ny8
-  Twitter:         https://twitter.com/chad_baldwin
-  Reddit:          https://reddit.com/user/chadbaldwin
-  Credly:          https://credly.com/users/chadbaldwin
-  PluralSight:     https://app.pluralsight.com/profile/chadbaldwin
+  # Microsoft Learn: https://learn.microsoft.com/en-us/users/chadbaldwin/transcript/v0ylxf6nq5l8ny8
+  # Twitter:         https://twitter.com/chad_baldwin
+  # Reddit:          https://reddit.com/user/chadbaldwin
+  # Credly:          https://credly.com/users/chadbaldwin
+  # PluralSight:     https://app.pluralsight.com/profile/chadbaldwin
   Website:         /
 
 # plugin: jekyll-seo-tag
-twitter:
-  username: chad_baldwin
-  card: summary_large_image
+# twitter:
+#   username: chad_baldwin
+#   card: summary_large_image
 social:
   name: Chad Baldwin
   links:
-    - https://twitter.com/chad_baldwin
+    # - https://twitter.com/chad_baldwin
     - https://linkedin.com/in/chadbaldwin
     - https://github.com/chadbaldwin
 
