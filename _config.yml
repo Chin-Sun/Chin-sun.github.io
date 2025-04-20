@@ -29,7 +29,7 @@ show_excerpts: false
 # Used by simple links page
 social-links:
   Resume:          /resume
-  LinkedIn:        https://www.linkedin.com/in/qian-kian-sun-033072240/
+  LinkedIn:        https://www.linkedin.com/in/qian-kian-sun-033072240
   # StackOverflow:   https://stackoverflow.com/users/3474677
   # HackerRank:      https://hackerrank.com/Chin-Sun
   GitHub:          https://github.com/Chin-Sun
