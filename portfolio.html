@@ -4,18 +4,16 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<section class="portfolio">
-  <h1>My Projects</h1>
-  <ul>
-    {% for project in site.data.projects %}
-      <li>
-        <h2><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></h2>
-        <p><strong>Date:</strong> {{ project.date }}</p>
-        <p>{{ project.description }}</p>
-        {% if project.skills %}
-          <p><strong>Skills:</strong> {{ project.skills | join: ', ' }}</p>
-        {% endif %}
-      </li>
+<section class="portfolio-home">
+  <h1>My Portfolio</h1>
+  <div class="category-grid">
+    {% for group in site.data.projects %}
+    <a href="/portfolio/{{ group.slug }}/" class="category-card">
+      <div class="category-index">0{{ forloop.index }}</div>
+      <h2>{{ group.category }}</h2>
+      <p>{{ group.description }}</p>
+      <div class="category-arrow">→</div>
+    </a>
     {% endfor %}
-  </ul>
+  </div>
 </section>
