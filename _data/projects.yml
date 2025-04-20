@@ -28,19 +28,17 @@
       github: https://github.com/Chin-Sun/Recommendation
       demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
     - title: Real Time Translation based AI
-      description: This project was developed collaboratively by a team of three within 12 hours. 
-      It leverages state-of-the-art AI models and toolkits to automate the generation of subtitles, summarize textual content, and support real-time translation and speech recognition. 
+      description: This project was developed collaboratively by a team of three within 12 hours. It leverages state-of-the-art AI models and toolkits to automate the generation of subtitles, summarize textual content, and support real-time translation and speech recognition. 
       tech: [Streamlit, Flash, OpenCV, HuggingFace, Whisper, DeepTranslator]
       image: /img/portfolio/ai.png
       github: https://github.com/Chin-Sun/AI-based_Real-time_Translation
     - title: Freelancer Platform
-      description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need.  This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
+      description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need. This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
       tech: [Django, HTML, CSS, JavaScript, SQLite, OAuth 2.0, Heroku]
       image: /img/portfolio/freelancer.png
       github: https://github.com/Chin-Sun/Freelancer-Platform
     - title: Reserve Reading Room
-      description: This project is for students to reserve reading rooms based on specific courses and textbooks, enforces capacity control, 
-      prevents double-booking, and provides instructors with visibility into collaborative learning groups. 
+      description: This project is for students to reserve reading rooms based on specific courses and textbooks, enforces capacity control, prevents double-booking, and provides instructors with visibility into collaborative learning groups. 
       tech: [Django, HTML, CSS, JavaScript, PostgreSQL, OAuth 2.0]
       image: /img/portfolio/reserve.png
       github: https://github.com/Chin-Sun/Reserve-Reading-Room
