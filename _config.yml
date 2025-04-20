@@ -60,6 +60,7 @@ collections:
     output: true
 
 header_pages:
+  - portfolio.html
   - resume.html
   - archive.html
 #  - books.md # Commenting out for now as putting more focus on pluralsight than reading
