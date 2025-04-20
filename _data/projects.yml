@@ -28,7 +28,7 @@
       github: https://github.com/Chin-Sun/Lung-Cancer-Classidication
       demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
     - title: AI Video Helper
-      description: This project was built by a team of three in just 12 hours! It's like a smart robot that watches videos and helps people by: Writing subtitles automatically, Summarizing what people said, and Translating what’s spoken into other languages, which all in real time! 
+      description: This project was built by a team of three in just 12 hours! It's like a smart robot that watches videos and helps people by Writing subtitles automatically, Summarizing what people said, and Translating what’s spoken into other languages, which all in real time! 
       tech: [Streamlit, Flash, OpenCV, HuggingFace, Whisper, DeepTranslator]
       image: /img/portfilio/ai.png
       github: https://github.com/Chin-Sun/AI-based_Real-time_Translation
