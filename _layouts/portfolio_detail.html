@@ -6,32 +6,45 @@ layout: default
 {% assign projects = category.projects %}
 
 <section class="portfolio-slider">
-  <h1>{{ category.category }}</h1>
-
   <div class="slider-container">
     {% for project in projects %}
     <div class="project-slide{% if forloop.index0 != 0 %} hidden{% endif %}" data-index="{{ forloop.index0 }}">
-      <h2>{{ project.title }}</h2>
-      <p>{{ project.description }}</p>
-      <p>
-        {% for tech in project.tech %}
-        <span class="tech-chip">{{ tech }}</span>
-        {% endfor %}
-      </p>
-      {% if project.image %}
-      <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" />
-      {% endif %}
-      <div class="project-links">
-        {% if project.github %}<a href="{{ project.github }}" target="_blank"><img src="/img/socialicons/github.svg">GitHub</a>{% endif %}
-        {% if project.demo %}<a href="{{ project.demo }}" target="_blank">Live Demo</a>{% endif %}
+      <div class="project-content" style="display: flex; gap: 2rem; align-items: flex-start;">
+        <div class="text-content" style="flex: 1;">
+          <h2 style="font-size: 3rem; font-weight: 800; color: #00d6b4;">0{{ forloop.index }}</h2>
+          <h3 style="font-size: 2rem; font-weight: 800; margin-top: 0.5rem; color: #ffffff;">{{ project.title }}</h3>
+          <p style="margin-top: 1rem; color: #f1f1f1;">{{ project.description }}</p>
+          <p style="margin-top: 1rem;">
+            {% for tech in project.tech %}
+            <span class="tech-chip">{{ tech }}</span>
+            {% endfor %}
+          </p>
+          <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; align-items: center;">
+            {% if project.demo %}
+            <a href="{{ project.demo }}" target="_blank" class="link-button">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M5 12a7 7 0 0 1 7-7h2"/><path d="M3 21h18"/><path d="M12 17l-3-3 3-3"/><path d="M9 14h6"/></svg>
+            </a>
+            {% endif %}
+            {% if project.github %}
+            <a href="{{ project.github }}" target="_blank" class="link-button">
+              <img src="/img/socialicons/github.svg" alt="GitHub" width="24" height="24"/>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+        {% if project.image %}
+        <div class="image-content" style="flex: 1;">
+          <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" style="width: 100%; border-radius: 0.5rem; border: 2px solid #888;"/>
+        </div>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
   </div>
 
-  <div class="slider-controls">
-    <button id="prev">← Prev</button>
-    <button id="next">Next →</button>
+  <div class="slider-controls" style="margin-top: 2rem; text-align: center;">
+    <button id="prev">←</button>
+    <button id="next">→</button>
   </div>
 </section>
 
@@ -57,16 +70,8 @@ layout: default
 </script>
 
 <style>
-  .portfolio-slider {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    color: white;
-  }
-
   .project-slide {
     display: none;
-    transition: all 0.3s ease;
   }
 
   .project-slide:not(.hidden) {
@@ -75,34 +80,42 @@ layout: default
 
   .tech-chip {
     display: inline-block;
-    background: #6c757d;
+    background: #00d6b4;
     color: white;
     margin: 0.3rem;
-    padding: 0.3rem 0.5rem;
-    border-radius: 5px;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
     font-size: 0.9rem;
-  }
-
-  .project-image {
-    max-width: 100%;
-    height: auto;
-    margin: 1rem 0;
-    border: 2px solid #333;
-    border-radius: 0.5rem;
+    font-weight: 600;
   }
 
   .slider-controls button {
-    background-color: #dee2e6;
+    background-color: #f1f1f1;
     border: none;
-    color: black;
-    padding: 0.5rem 1rem;
+    color: #333;
+    padding: 0.6rem 1.2rem;
     font-size: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     cursor: pointer;
     border-radius: 4px;
+    font-weight: bold;
   }
 
   .slider-controls button:hover {
-    background-color: #ced4da;
+    background-color: #e1e1e1;
+  }
+
+  .link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+  }
+
+  .link-button:hover {
+    background-color: #dddddd;
   }
 </style>
