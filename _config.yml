@@ -14,7 +14,7 @@ description: >
 # Minima variables
 # twitter_username:  chad_baldwin
 github_username:   Chin-Sun
-linkedin_username: Qian Sun
+linkedin_username: Qian (Kian) Sun
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
@@ -29,10 +29,10 @@ show_excerpts: false
 # Used by simple links page
 social-links:
   Resume:          /resume
-  LinkedIn:        https://www.linkedin.com/in/qian-sun-033072240
+  LinkedIn:        https://www.linkedin.com/in/qian-kian-sun-033072240/
   # StackOverflow:   https://stackoverflow.com/users/3474677
   # HackerRank:      https://hackerrank.com/Chin-Sun
-  GitHub:          https://github.com/chadbaldwin
+  GitHub:          https://github.com/Chim-Sun
   # Microsoft Learn: https://learn.microsoft.com/en-us/users/chadbaldwin/transcript/v0ylxf6nq5l8ny8
   # Twitter:         https://twitter.com/chad_baldwin
   # Reddit:          https://reddit.com/user/chadbaldwin
