@@ -19,16 +19,16 @@
     
 - category: Software Projects
   slug: software-dev
-  description: Projects related to backend, full-stack, and system programming
+  description: Projects related to backend, full-stack, and cloud deployment
   projects:
     - title: Lung Cancer Classification System on AWS
       description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as
 receiving real-time diagnosis results from a custom-trained AI model
       tech: [Amazon, Linux, Windows, JavaScript, HTML/CSS, MongoDB, FastAPI]
-      image: /assets/img/portfolio/lung.png
+      image: /img/portfolio/lung.png
       github: https://github.com/Chin-Sun/Recommendation
       demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
-    - title: Freelancer Platform
+    - title: Real Time Translation based AI
       description: Full-featured service matching system using Django...
       tech: [Django, HTML, JavaScript]
       image: /assets/img/portfolio/freelancer.png
