@@ -9,10 +9,10 @@ layout: default
   <div class="slider-container">
     {% for project in projects %}
     <div class="project-slide{% if forloop.index0 != 0 %} hidden{% endif %}" data-index="{{ forloop.index0 }}">
-      <div class="project-content" style="display: flex; gap: 2rem; align-items: flex-start;">
-        <div class="text-content" style="flex: 1;">
-          <h2 style="font-size: 3rem; font-weight: 800; color: #00d6b4;">0{{ forloop.index }}</h2>
-          <h3 style="font-size: 2rem; font-weight: 800; margin-top: 0.5rem; color: #6c757d;">{{ project.title }}</h3>
+      <div class="project-content" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+        <div class="text-content" style="flex: 1; min-width: 300px;">
+          <h2 style="font-size: 3rem; font-weight: 800; color: #00d6b4; margin-bottom: 0.5rem;">0{{ forloop.index }}</h2>
+          <h3 style="font-size: 2rem; font-weight: 800; color: #6c757d;">{{ project.title }}</h3>
           <p style="margin-top: 1rem; color: #adb5bd;">{{ project.description }}</p>
           <p style="margin-top: 1rem;">
             {% for tech in project.tech %}
@@ -33,9 +33,9 @@ layout: default
           </div>
         </div>
         {% if project.image %}
-        <div class="image-content" style="flex: 1;">
+        <div class="image-content" style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: center;">
           <a href="{{ project.github }}" target="_blank">
-          <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" style="width: 200%; border-radius: 0.5rem; border: 2px solid #888;"/>
+            <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" style="max-height: 100%; max-width: 100%; height: auto; width: auto; border-radius: 0.5rem; border: 2px solid #888;" />
           </a>
         </div>
         {% endif %}
@@ -60,7 +60,6 @@ layout: default
     });
   }
 
-
   document.getElementById('next').addEventListener('click', () => {
     if (currentIndex === slides.length - 1) {
       window.location.href = "/portfolio/";
@@ -69,7 +68,6 @@ layout: default
       showSlide(currentIndex);
     }
   });
-
 
   document.getElementById('prev').addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
@@ -112,10 +110,6 @@ layout: default
   .slider-controls button:hover {
     background-color: #e1e1e1;
   }
-  
-  .project-image {
-  transform: scale(1.3);
-}
 
   .link-button {
     display: inline-flex;
@@ -129,5 +123,9 @@ layout: default
 
   .link-button:hover {
     background-color: #dddddd;
+  }
+
+  .project-image:hover {
+    transform: scale(1.05);
   }
 </style>
