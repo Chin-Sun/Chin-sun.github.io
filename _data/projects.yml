@@ -29,43 +29,56 @@ receiving real-time diagnosis results from a custom-trained AI model
       github: https://github.com/Chin-Sun/Recommendation
       demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
     - title: Real Time Translation based AI
-      description: Full-featured service matching system using Django...
-      tech: [Django, HTML, JavaScript]
-      image: /assets/img/portfolio/freelancer.png
+      description: This project was developed collaboratively by a team of three within 12 hours. 
+      It leverages state-of-the-art AI models and toolkits to automate the generation of subtitles, summarize textual content, and support real-time translation and speech recognition. 
+      tech: [Streamlit, Flash, OpenCV / Hugging Face/ Whisper / DeepTranslator]
+      image: /img/portfolio/ai.png
+      github: https://github.com/Chin-Sun/AI-based_Real-time_Translation
+    - title: Freelancer Platform
+      description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need. 
+      This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
+      tech: [Django, HTML/CSS, JavaScript, SQLite, OAuth 2.0, Heroku]
+      image: /img/portfolio/freelancer.png
       github: https://github.com/Chin-Sun/Freelancer-Platform
+    - title: Reserve Reading Room
+      description: This project is for students to reserve reading rooms based on specific courses and textbooks, enforces capacity control, 
+      prevents double-booking, and provides instructors with visibility into collaborative learning groups. 
+      tech: [Django, HTML/CSS, JavaScript, PostgreSQL, OAuth 2.0]
+      image: /img/portfolio/reserve.png
+      github: https://github.com/Chin-Sun/Reserve-Reading-Room
       
 - category: Machine Learning 
   slug: machine-lea
-  description: Projects related to backend, full-stack, and system programming
+  description: Deep learning related projects, such as image processing, data prediction
   projects:
-    - title: Personalized Product Recommendation System
-      description: Built a scalable product recommendation engine...
-      tech: [Python, Django, PostgreSQL]
-      image: /assets/img/portfolio/recommendation.png
-      github: https://github.com/Chin-Sun/Recommendation
-      demo: https://demo.example.com/recommendation
-    - title: Freelancer Platform
-      description: Full-featured service matching system using Django...
-      tech: [Django, HTML, JavaScript]
-      image: /assets/img/portfolio/freelancer.png
-      github: https://github.com/Chin-Sun/Freelancer-Platform
+    - title: Image Segmentation
+      description: This study investigates the performance of the K-means algorithm and Gaussian Mixture Model (GMM) with Expectation Maximization (EM) for image segmentation. 
+      tech: [Python, K-means Clustering, Gaussian Mixture Model， Expectation Maximization]
+      image: /img/portfolio/seg.png
+      github: https://github.com/Chin-Sun/Image-Segmentation
+      # demo: https://demo.example.com/recommendation
+    - title: Data Visualization and Prediction Models for COVID-19
+      description: This project presents a comprehensive analysis and forecasting system for COVID-19 pandemic trends across global regions in 2020
+      tech: [Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly]
+      image: /img/portfolio/covid.png
+      github: https://github.com/Chin-Sun/Covid-19_Data_visualization-prediction_models
 
 - category: Embedded Systems & IoT Projects
-  slug: embedded
-  description: Hardware + microcontroller + PCB based systems
+  slug: embed
+  description: Hardware + Microcontroller + PCB based systems
   projects:
     - title: Balancing Car System
       description: Self-balancing car using PID on Arduino
       tech: [Arduino, C++, PID]
-      image: /assets/img/portfolio/balancing-car.png
+      image: /assets/img/portfolio/car.png
       github: https://github.com/Chin-Sun/My_Balancing_Car_System_based_on_Arduino
     - title: Smart Greenhouse Irrigation System
       description: Designed and implemented an automated irrigation system using C-programmed microcontrollers, PCB design, and Kingview SCADA interface.
       tech: [Kingview, C, Altium Designer]
-      image: /assets/img/portfolio/balancing-car.png
+      image: /img/portfolio/smart.png
       github: https://github.com/Chin-Sun/Smart_Greenhouse_Irrigation_System
     - title: Rotating LED Electronic Light Development
       description: Developed modular PCB-based LED display clock system with STC microcontroller, using Keil for embedded programming.
       tech: [Keil uVision, C/C++, Altium Designer]
-      image: /assets/img/portfolio/balancing-car.png
+      image: /assets/img/portfolio/light.png
       github: https://github.com/Chin-Sun/Rotating_LED_electronic_light
