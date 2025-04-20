@@ -12,8 +12,8 @@ layout: default
       <div class="project-content" style="display: flex; gap: 2rem; align-items: flex-start;">
         <div class="text-content" style="flex: 1;">
           <h2 style="font-size: 3rem; font-weight: 800; color: #00d6b4;">0{{ forloop.index }}</h2>
-          <h3 style="font-size: 2rem; font-weight: 800; margin-top: 0.5rem; color: #ffffff;">{{ project.title }}</h3>
-          <p style="margin-top: 1rem; color: #f1f1f1;">{{ project.description }}</p>
+          <h3 style="font-size: 2rem; font-weight: 800; margin-top: 0.5rem; color: #6c757d;">{{ project.title }}</h3>
+          <p style="margin-top: 1rem; color: #adb5bd;">{{ project.description }}</p>
           <p style="margin-top: 1rem;">
             {% for tech in project.tech %}
             <span class="tech-chip">{{ tech }}</span>
@@ -34,7 +34,9 @@ layout: default
         </div>
         {% if project.image %}
         <div class="image-content" style="flex: 1;">
-          <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" style="width: 100%; border-radius: 0.5rem; border: 2px solid #888;"/>
+          <a href="{{ project.github }}" target="_blank">
+          <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" style="width: 200%; border-radius: 0.5rem; border: 2px solid #888;"/>
+          </a>
         </div>
         {% endif %}
       </div>
