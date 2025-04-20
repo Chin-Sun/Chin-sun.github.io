@@ -22,8 +22,7 @@
   description: Projects related to backend, full-stack, and cloud deployment
   projects:
     - title: Lung Cancer Classification System on AWS
-      description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as
-receiving real-time diagnosis results from a custom-trained AI model
+      description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as receiving real-time diagnosis results from a custom-trained AI model
       tech: [Amazon, Linux, Windows, JavaScript, HTML/CSS, MongoDB, FastAPI]
       image: /img/portfolio/lung.png
       github: https://github.com/Chin-Sun/Recommendation
@@ -35,8 +34,7 @@ receiving real-time diagnosis results from a custom-trained AI model
       image: /img/portfolio/ai.png
       github: https://github.com/Chin-Sun/AI-based_Real-time_Translation
     - title: Freelancer Platform
-      description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need. 
-      This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
+      description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need.  This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
       tech: [Django, HTML/CSS, JavaScript, SQLite, OAuth 2.0, Heroku]
       image: /img/portfolio/freelancer.png
       github: https://github.com/Chin-Sun/Freelancer-Platform
