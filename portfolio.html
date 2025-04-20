@@ -1,0 +1,21 @@
+---
+layout: default
+title: Portfolio
+permalink: /portfolio/
+---
+
+<section class="portfolio">
+  <h1>My Projects</h1>
+  <ul>
+    {% for project in site.data.projects %}
+      <li>
+        <h2><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></h2>
+        <p><strong>Date:</strong> {{ project.date }}</p>
+        <p>{{ project.description }}</p>
+        {% if project.skills %}
+          <p><strong>Skills:</strong> {{ project.skills | join: ', ' }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
