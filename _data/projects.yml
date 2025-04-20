@@ -44,11 +44,11 @@
       github: https://github.com/Chin-Sun/My_Balancing_Car_System_based_on_Arduino
     - title: Smart Greenhouse Irrigation System
       description: Designed and implemented an automated irrigation system using C-programmed microcontrollers, PCB design, and Kingview SCADA interface.
-      tech: [Arduino, C++, PID]
+      tech: [Kingview, C, Altium Designer]
       image: /assets/img/portfolio/balancing-car.png
       github: https://github.com/Chin-Sun/Smart_Greenhouse_Irrigation_System
     - title: Rotating LED Electronic Light Development
       description: Developed modular PCB-based LED display clock system with STC microcontroller, using Keil for embedded programming.
-      tech: [Arduino, C++, PID]
+      tech: [Keil uVision, C/C++, Altium Designer]
       image: /assets/img/portfolio/balancing-car.png
       github: https://github.com/Chin-Sun/Rotating_LED_electronic_light
