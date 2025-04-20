@@ -21,7 +21,7 @@
   slug: software-dev
   description: Projects related to backend, full-stack, and cloud deployment
   projects:
-    - title: Lung Cancer Classification System on AWS
+    - title: Lung Cancer Checker Website
       description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as receiving real-time diagnosis results from a custom-trained AI model
       tech: [Amazon, Linux, Windows, JavaScript, HTML, CSS, MongoDB, FastAPI]
       image: /img/portfilio/lung.PNG
