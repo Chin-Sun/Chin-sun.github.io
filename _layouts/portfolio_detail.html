@@ -33,9 +33,9 @@ layout: default
           </div>
         </div>
         {% if project.image %}
-        <div class="image-content" style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: center;">
+        <div class="image-content" style="flex: 1; display: flex; justify-content: center; align-items: center;">
           <a href="{{ project.github }}" target="_blank">
-            <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image" style="max-height: 100%; max-width: 100%; height: auto; width: auto; border-radius: 0.5rem; border: 2px solid #888;" />
+            <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image"  />
           </a>
         </div>
         {% endif %}
@@ -124,7 +124,17 @@ layout: default
   .link-button:hover {
     background-color: #dddddd;
   }
-
+  
+.project-image {
+  max-height: 450px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  border: 2px solid #888;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
   .project-image:hover {
     transform: scale(1.05);
   }
