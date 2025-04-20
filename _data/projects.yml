@@ -17,8 +17,25 @@
    # Eventually, it turned into a tool that I use, at minimum, on a daily basis. The project is
     #hosted on GitHub and is licensed for anyone to use or contribute!
     
-- category: Software Development Engineer
+- category: Software Projects
   slug: software-dev
+  description: Projects related to backend, full-stack, and system programming
+  projects:
+    - title: Lung Cancer Classification System on AWS
+      description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as
+receiving real-time diagnosis results from a custom-trained AI model
+      tech: [Amazon, Linux, Windows, JavaScript, HTML/CSS, MongoDB, FastAPI]
+      image: /assets/img/portfolio/lung.png
+      github: https://github.com/Chin-Sun/Recommendation
+      demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
+    - title: Freelancer Platform
+      description: Full-featured service matching system using Django...
+      tech: [Django, HTML, JavaScript]
+      image: /assets/img/portfolio/freelancer.png
+      github: https://github.com/Chin-Sun/Freelancer-Platform
+      
+- category: Machine Learning 
+  slug: machine-lea
   description: Projects related to backend, full-stack, and system programming
   projects:
     - title: Personalized Product Recommendation System
