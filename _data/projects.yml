@@ -63,7 +63,7 @@ receiving real-time diagnosis results from a custom-trained AI model
       image: /img/portfolio/covid.png
       github: https://github.com/Chin-Sun/Covid-19_Data_visualization-prediction_models
 
-- category: Embedded Systems & IoT Projects
+- category: Embedded Systems
   slug: embed
   description: Hardware + Microcontroller + PCB based systems
   projects:
