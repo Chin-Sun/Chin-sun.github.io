@@ -50,7 +50,7 @@
   projects:
     - title: Image Segmentation
       description: This study investigates the performance of the K-means algorithm and Gaussian Mixture Model (GMM) with Expectation Maximization (EM) for image segmentation. 
-      tech: [Python, K-means Clustering, Gaussian Mixture Model， Expectation Maximization]
+      tech: [Python, K-means Clustering, Gaussian Mixture Model，Expectation Maximization]
       image: /img/portfilio/seg.PNG
       github: https://github.com/Chin-Sun/Image-Segmentation
       # demo: https://demo.example.com/recommendation
