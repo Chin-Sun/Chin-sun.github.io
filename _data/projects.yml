@@ -24,7 +24,7 @@
     - title: Lung Cancer Classification System on AWS
       description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as receiving real-time diagnosis results from a custom-trained AI model
       tech: [Amazon, Linux, Windows, JavaScript, HTML, CSS, MongoDB, FastAPI]
-      image: /img/portfilio/lung.png
+      image: /img/portfilio/lung.PNG
       github: https://github.com/Chin-Sun/Lung-Cancer-Classidication
       demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
     - title: Real Time Translation based AI
@@ -35,12 +35,12 @@
     - title: Freelancer Platform
       description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need. This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
       tech: [Django, HTML, CSS, JavaScript, SQLite, OAuth 2.0, Heroku]
-      image: /img/portfilio/freelancer.png
+      image: /img/portfilio/freelancer.PNG
       github: https://github.com/Chin-Sun/Freelancer-Platform
     - title: Reserve Reading Room
       description: This project is for students to reserve reading rooms based on specific courses and textbooks, enforces capacity control, prevents double-booking, and provides instructors with visibility into collaborative learning groups. 
       tech: [Django, HTML, CSS, JavaScript, PostgreSQL, OAuth 2.0]
-      image: /img/portfilio/reserve.png
+      image: /img/portfilio/reserve.PNG
       github: https://github.com/Chin-Sun/Reserve-Reading-Room
       
 - category: Machine Learning 
@@ -50,13 +50,13 @@
     - title: Image Segmentation
       description: This study investigates the performance of the K-means algorithm and Gaussian Mixture Model (GMM) with Expectation Maximization (EM) for image segmentation. 
       tech: [Python, K-means Clustering, Gaussian Mixture Model， Expectation Maximization]
-      image: /img/portfilio/seg.png
+      image: /img/portfilio/seg.PNG
       github: https://github.com/Chin-Sun/Image-Segmentation
       # demo: https://demo.example.com/recommendation
     - title: Data Visualization and Prediction Models for COVID-19
       description: This project presents a comprehensive analysis and forecasting system for COVID-19 pandemic trends across global regions in 2020
       tech: [Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly]
-      image: /img/portfilio/covid.png
+      image: /img/portfilio/covid.PNG
       github: https://github.com/Chin-Sun/Covid-19_Data_visualization-prediction_models
 
 - category: Embedded Systems
@@ -66,7 +66,7 @@
     - title: Balancing Car System
       description: Self-balancing car using PID on Arduino
       tech: [Arduino, "C++", PID]
-      image: /assets/img/portfilio/car.png
+      image: /assets/img/portfilio/car.PNG
       github: https://github.com/Chin-Sun/My_Balancing_Car_System_based_on_Arduino
     - title: Smart Greenhouse Irrigation System
       description: Designed and implemented an automated irrigation system using C-programmed microcontrollers, PCB design, and Kingview SCADA interface.
