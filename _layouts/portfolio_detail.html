@@ -60,10 +60,16 @@ layout: default
     });
   }
 
+
   document.getElementById('next').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
+    if (currentIndex === slides.length - 1) {
+      window.location.href = "/portfolio/";
+    } else {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
   });
+
 
   document.getElementById('prev').addEventListener('click', () => {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
@@ -106,6 +112,10 @@ layout: default
   .slider-controls button:hover {
     background-color: #e1e1e1;
   }
+  
+  .project-image {
+  transform: scale(1.1);
+}
 
   .link-button {
     display: inline-flex;
