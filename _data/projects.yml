@@ -24,7 +24,7 @@
     - title: Lung Cancer Classification System on AWS
       description: Designed a website allowing patients to login and upload their medical images to check their condition, as well as receiving real-time diagnosis results from a custom-trained AI model
       tech: [Amazon, Linux, Windows, JavaScript, HTML, CSS, MongoDB, FastAPI]
-      image: /img/portfolio/lung.png
+      image: https://github.com/Chin-Sun/Chin-sun.github.io/blob/my-pages/img/portfilio/ai.png
       github: https://github.com/Chin-Sun/Recommendation
       demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
     - title: Real Time Translation based AI
