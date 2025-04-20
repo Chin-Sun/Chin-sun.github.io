@@ -32,6 +32,7 @@
       tech: [Streamlit, Flash, OpenCV, HuggingFace, Whisper, DeepTranslator]
       image: /img/portfilio/ai.png
       github: https://github.com/Chin-Sun/AI-based_Real-time_Translation
+      demo: https://drive.google.com/file/d/15HyKCIQCapjHQqBC5Ib1zLj0PZ-PJWSs/view?usp=sharing
     - title: Freelancer Platform
       description: This project is a full-featured, web-based application designed to bridge the employment gap between skilled service providers and clients in need. This platform provides a scalable and intelligent environment where users can seamlessly register, interact, and match based on real-time demand and expertise. 
       tech: [Django, HTML, CSS, JavaScript, SQLite, OAuth 2.0, Heroku]
@@ -58,6 +59,7 @@
       tech: [Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly]
       image: /img/portfilio/covid.PNG
       github: https://github.com/Chin-Sun/Covid-19_Data_visualization-prediction_models
+      demo: https://www.youtube.com/watch?v=2EKIGCL_9A8
 
 - category: Embedded Systems
   slug: embed
@@ -68,13 +70,16 @@
       tech: [Arduino, "C++", PID]
       image: /img/portfilio/car.PNG
       github: https://github.com/Chin-Sun/My_Balancing_Car_System_based_on_Arduino
+      demo: https://www.youtube.com/watch?v=kOZWG59ebCE&feature=youtu.be
     - title: Smart Greenhouse Irrigation System
       description: Designed and implemented an automated irrigation system using C-programmed microcontrollers, PCB design, and Kingview SCADA interface.
       tech: [Kingview, C, Altium Designer]
       image: /img/portfilio/smart.png
       github: https://github.com/Chin-Sun/Smart_Greenhouse_Irrigation_System
+      demo: https://www.youtube.com/watch?v=n6UJMdB_ueU&feature=youtu.be
     - title: Rotating LED Electronic Light Development
       description: Developed modular PCB-based LED display clock system with STC microcontroller, using Keil for embedded programming.
       tech: [Keil uVision, "C++", Altium Designer]
       image: /img/portfilio/light.png
       github: https://github.com/Chin-Sun/Rotating_LED_electronic_light
+      demo: https://www.youtube.com/watch?v=um-tjEZWeqE&feature=youtu.be
