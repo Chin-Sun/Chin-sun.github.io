@@ -16,7 +16,7 @@ Just to name a few of my interests...
 * Handcrafts
 * Shopping
 * Gym
-* Try amazing-smelling scented candle and perfume
+* Try some amazing-smelling scented candles or perfumes
 * Technical home projects...such as website, electronics, smart home
 * Non-technical home projects like organization
 
