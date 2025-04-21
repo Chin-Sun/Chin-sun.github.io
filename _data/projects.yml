@@ -46,7 +46,7 @@
       
 - category: Machine Learning 
   slug: machine-lea
-  description: Deep learning related projects, such as image processing, data prediction
+  description: Image Processing, or Data Prediction
   projects:
     - title: Image Segmentation
       description: This study investigates the performance of the K-means algorithm and Gaussian Mixture Model (GMM) with Expectation Maximization (EM) for image segmentation. 
