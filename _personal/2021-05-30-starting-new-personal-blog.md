@@ -12,12 +12,12 @@ You don't necessarily need to be a nerd to follow my personal posts...but it wou
 
 Just to name a few of my interests...
 
-* 3D Printing
-* Rubiks Cubes / Puzzle Cubes
-* Motorcycles
-* Archery
-* Dogs
-* Technical home projects...such as Raspberry Pis, electronics, smart home
+* Reading
+* Handcrafts
+* Shopping
+* Gym
+* Try amazing-smelling scented candle and perfume
+* Technical home projects...such as website, electronics, smart home
 * Non-technical home projects like organization
 
 If any of this sounds interesting to you, then I hope you stick around and check in from time to times. I'll share new posts on Twitter and possibly LinkedIn.
