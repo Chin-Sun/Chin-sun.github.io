@@ -4,27 +4,60 @@
   projects:
     - title: 基于AWS的肺癌识别系统
       description: 我们设计了一个网站，患者可以登录并上传肺部的医学影像。一个训练好的AI模型会立刻分析这些图像，并返回诊断结果，就像一个会看病的机器人医生一样。
+      tech: [Amazon, Linux, Windows, JavaScript, HTML, CSS, MongoDB, FastAPI]
+      image: /img/portfilio/lung.PNG
+      github: https://github.com/Chin-Sun/Lung-Cancer-Classidication
+      demo: https://www.youtube.com/watch?v=3dOk_ofCyZ0&feature=youtu.be
     - title: AI视频助手
       description: 我们三人团队在12小时内完成了这个项目！它就像一个聪明的机器人，会看视频，自动加字幕、总结内容，还能实时翻译说的话。
+      tech: [Streamlit, Flash, OpenCV, HuggingFace, Whisper, DeepTranslator]
+      image: /img/portfilio/ai.png
+      github: https://github.com/Chin-Sun/AI-based_Real-time_Translation
+      demo: https://drive.google.com/file/d/15HyKCIQCapjHQqBC5Ib1zLj0PZ-PJWSs/view?usp=sharing
     - title: 找工作平台
       description: 这是一个网站，用户可以展示自己的技能，也可以发布任务找人帮忙。系统会自动把合适的人推荐给有需要的人，就像一个智能的工作中介平台。
+      tech: [Django, HTML, CSS, JavaScript, SQLite, OAuth 2.0, Heroku]
+      image: /img/portfilio/freelancer.PNG
+      github: https://github.com/Chin-Sun/Freelancer-Platform
     - title: 图书馆自习室预订系统
       description: 我们开发了一个让学生预定图书馆自习室的网站。学生可以根据课程和教材选择房间，系统会检查空位，还能防止重复预订。老师也可以看到哪些学生在一起学习。
+      tech: [Django, HTML, CSS, JavaScript, PostgreSQL, OAuth 2.0]
+      image: /img/portfilio/reserve.PNG
+      github: https://github.com/Chin-Sun/Reserve-Reading-Room
 - category: 机器学习项目
   slug: machine-lea
   description: 包括图像处理和数据预测等
   projects:
     - title: 图像分割
       description: 这个项目测试了K-means算法和高斯混合模型（GMM）加上期望最大化（EM）在图像分割中的表现。它让电脑能把图片自动切成不同部分，比如天空、建筑、地面等。
+      tech: [Python, K-means Clustering, Gaussian Mixture Model，Expectation Maximization]
+      image: /img/portfilio/seg.PNG
+      github: https://github.com/Chin-Sun/Image-Segmentation
     - title: 新冠疫情趋势预测器
       description: 这个系统分析了来自世界各地的新冠疫情数据，并用图表展示2020年的变化趋势。它还尝试预测接下来会发生什么，就像是疫情的天气预报员一样。
+      tech: [Python, NumPy, Pandas, Matplotlib, Seaborn, Plotly]
+      image: /img/portfilio/covid.PNG
+      github: https://github.com/Chin-Sun/Covid-19_Data_visualization-prediction_models
+      demo: https://www.youtube.com/watch?v=2EKIGCL_9A8
 - category: 嵌入式系统
   slug: embed
   description: 包括硬件、微控制器和PCB电路项目
   projects:
     - title: 自平衡机器人小车
       description: 我做了一个两轮小车，它不会摔倒！它用了一种叫PID的算法，就像一个小大脑，可以随时调整自己保持平衡，就像一个学会了瑜伽的玩具车。
+      tech: [Arduino, "C++", PID]
+      image: /img/portfilio/car.PNG
+      github: https://github.com/Chin-Sun/My_Balancing_Car_System_based_on_Arduino
+      demo: https://www.youtube.com/watch?v=kOZWG59ebCE&feature=youtu.be
     - title: 智能温室浇水系统
       description: 这个系统可以自己判断什么时候给植物浇水。我设计了电路板并编程控制一个小电脑，它会检测土壤湿度并在电脑上显示情况，不再需要人工浇水啦！
+      tech: [Kingview, C, Altium Designer]
+      image: /img/portfilio/smart.png
+      github: https://github.com/Chin-Sun/Smart_Greenhouse_Irrigation_System
+      demo: https://www.youtube.com/watch?v=n6UJMdB_ueU&feature=youtu.be
     - title: 旋转LED电子钟
       description: 我做了一个会旋转的LED设备，它能显示时间和温度，就像漂浮在空中的文字。我设计了电路并写程序控制灯的闪烁方式，让它在转动时显示信息。
+      tech: [Keil uVision, "C++", Altium Designer]
+      image: /img/portfilio/light.png
+      github: https://github.com/Chin-Sun/Rotating_LED_electronic_light
+      demo: https://www.youtube.com/watch?v=um-tjEZWeqE&feature=youtu.be
