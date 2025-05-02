@@ -60,7 +60,7 @@ collections:
     output: true
 
 header_pages:
-  - portfoliozh.html
+  - portfoliozh.md
   - portfolio.html
   - resume.html
   - archive.html
