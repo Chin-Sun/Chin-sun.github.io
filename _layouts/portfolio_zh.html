@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+{% assign category = site.data.projectszh | where: "slug", page.category | first %}
+{% assign projects = category.projects %}
+
+<section class="portfolio-slider">
+  <div class="slider-container">
+    {% for project in projects %}
+    <div class="project-slide{% if forloop.index0 != 0 %} hidden{% endif %}" data-index="{{ forloop.index0 }}">
+      <div class="project-content" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;">
+        <div class="text-content" style="flex: 1; min-width: 300px;">
+          <h2 style="font-size: 3rem; font-weight: 800; color: #00d6b4; margin-bottom: 0.5rem;">0{{ forloop.index }}</h2>
+          <h3 style="font-size: 2rem; font-weight: 800; color: #6c757d;">{{ project.title }}</h3>
+          <p style="margin-top: 1rem; color: #5e6472;">{{ project.description }}</p>
+          <p style="margin-top: 1rem;">
+            {% for tech in project.tech %}
+            <span class="tech-chip">{{ tech }}</span>
+            {% endfor %}
+          </p>
+          <div class="project-links" style="margin-top: 1.5rem; display: flex; gap: 1rem; align-items: center;">
+            {% if project.demo %}
+            <a href="{{ project.demo }}" target="_blank" class="link-button">
+              <img src="/img/portfilio/demo.png" alt="Demo" width="24" height="24"/>
+            </a>
+            {% endif %}
+            {% if project.github %}
+            <a href="{{ project.github }}" target="_blank" class="link-button">
+              <img src="/img/socialicons/github.svg" alt="GitHub" width="24" height="24"/>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+        {% if project.image %}
+        <div class="image-content" style="flex: 1; display: flex; justify-content: center; align-items: center;">
+          <a href="{{ project.github }}" target="_blank">
+            <img src="{{ project.image }}" alt="{{ project.title }}" class="project-image"  />
+          </a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="slider-controls" style="margin-top: 2rem; text-align: center;">
+    <button id="prev">←</button>
+    <button id="next">→</button>
+  </div>
+</section>
+
+<script>
+  const slides = document.querySelectorAll('.project-slide');
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('hidden', i !== index);
+    });
+  }
+
+  document.getElementById('next').addEventListener('click', () => {
+    if (currentIndex === slides.length - 1) {
+      window.location.href = "/portfolio/";
+    } else {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+  });
+
+  document.getElementById('prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+  });
+</script>
+
+<style>
+  .project-slide {
+    display: none;
+  }
+
+  .project-slide:not(.hidden) {
+    display: block;
+  }
+
+  .tech-chip {
+    display: inline-block;
+    background: #00d6b4;
+    color: white;
+    margin: 0.3rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .slider-controls button {
+    background-color: #f1f1f1;
+    border: none;
+    color: #333;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .slider-controls button:hover {
+    background-color: #e1e1e1;
+  }
+
+  .link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+  }
+
+  .link-button:hover {
+    background-color: #dddddd;
+  }
+  
+.project-image {
+  max-height: 450px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  border: 2px solid #888;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+  .project-image:hover {
+    transform: scale(1.05);
+  }
+</style>
