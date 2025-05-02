@@ -3,6 +3,13 @@ layout: default
 title: Portfolio
 permalink: /portfolio/
 ---
+<div class="lang-switcher">
+  <select onchange="switchLanguage(this)">
+    <option value="/portfolio/" selected>English</option>
+    <option value="/portfoliozh/">中文</option>
+  </select>
+</div>
+
 
 <section class="portfolio-grid">
   {% for group in site.data.projects %}
@@ -16,6 +23,14 @@ permalink: /portfolio/
   </a>
   {% endfor %}
 </section>
+
+<script>
+  function switchLanguage(select) {
+    const url = select.value;
+    window.location.href = url;
+  }
+</script>
+
 
 <style>
 body {
@@ -90,5 +105,24 @@ body {
 .portfolio-card:hover .card-arrow {
   transform: translateX(4px);
 }
+
+.lang-switcher {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.lang-switcher select {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 </style>
 
