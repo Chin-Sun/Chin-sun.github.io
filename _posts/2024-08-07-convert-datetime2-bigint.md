@@ -1,4 +1,9 @@
 ---
+title: "My Secret Post"
+date: 2025-08-21
+published: false
+---
+---
 layout: post
 title: "Decoding datetime2 columnstore segment range values"
 description: "Ever queried sys.column_store_segments and wondered how to decode max_data_id and min_data_id for datetime2 values? No? Well, I'm going to show you anyway"
