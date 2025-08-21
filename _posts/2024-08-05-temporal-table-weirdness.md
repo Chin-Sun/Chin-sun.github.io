@@ -1,4 +1,9 @@
 ---
+title: "My Secret Post"
+date: 2025-08-21
+published: false
+---
+---
 layout: post
 title: "Why aren't old rows dropping from my temporal history table?"
 description: "After running into an issue with temporal tables (system-versioned tables) and old rows hanging around, despite setting up a data retention policy...I thought I'd share my findings, turns out it's user error."
