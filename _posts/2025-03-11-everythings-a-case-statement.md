@@ -1,4 +1,9 @@
 ---
+title: "My Secret Post"
+date: 2025-08-21
+published: false
+---
+---
 layout: post
 title: "Everything's a CASE statement!"
 description: "A lot of people may not realize that some of our favorite T-SQL functions are really just a little syntactic sugar underneath."
